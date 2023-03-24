@@ -12,4 +12,7 @@ public class FunRestController {
     public String sayHello() {
         return "Hello World!";
     }
+
+//    expose a new endpoint for "workout"
+
 }
