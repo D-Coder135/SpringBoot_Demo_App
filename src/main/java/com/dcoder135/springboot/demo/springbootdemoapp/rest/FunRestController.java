@@ -14,5 +14,6 @@ public class FunRestController {
     }
 
 //    expose a new endpoint for "workout"
+    @GetMapping("/workout")
 
 }
