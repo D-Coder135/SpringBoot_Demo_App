@@ -19,4 +19,5 @@ public class FunRestController {
         return "Do 40 push-ups in a single go.";
     }
 
+    //    expose a new endpoint for "fortune"
 }
