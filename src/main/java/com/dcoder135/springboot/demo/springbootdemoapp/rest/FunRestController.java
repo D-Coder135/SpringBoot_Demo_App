@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FunRestController {
 
+//    inject properties for coach.name and team using the @Value annotation
+
 //    expose "/" that return "Hello World"
 
     @GetMapping("/")
