@@ -19,7 +19,7 @@ public class FunRestController {
 
     @GetMapping("/teaminfo")
     public String getTeamInfo(){
-
+        return "Coach Name: " + coachName + " and Team Name: " + teamName;
     }
 
 //    expose "/" that return "Hello World"
