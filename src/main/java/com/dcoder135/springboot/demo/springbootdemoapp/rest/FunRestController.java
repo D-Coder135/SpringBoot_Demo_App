@@ -18,6 +18,9 @@ public class FunRestController {
 //    expose new endpoint for "teaminfo"
 
     @GetMapping("/teaminfo")
+    public String getTeamInfo(){
+
+    }
 
 //    expose "/" that return "Hello World"
 
