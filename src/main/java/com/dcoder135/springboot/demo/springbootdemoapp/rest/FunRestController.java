@@ -1,5 +1,6 @@
 package com.dcoder135.springboot.demo.springbootdemoapp.rest;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,7 +9,10 @@ public class FunRestController {
 
 //    inject properties for coach.name and team using the @Value annotation
 
+    @Value("$coach.name")
     private String coachName;
+
+    @Value("$team.name")
     private String teamName;
 
 //    expose "/" that return "Hello World"
