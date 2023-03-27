@@ -8,6 +8,9 @@ public class FunRestController {
 
 //    inject properties for coach.name and team using the @Value annotation
 
+    private String coachName;
+    private String teamName;
+
 //    expose "/" that return "Hello World"
 
     @GetMapping("/")
